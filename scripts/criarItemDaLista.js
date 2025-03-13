@@ -1,7 +1,7 @@
 const inputItem = document.getElementById("input-item");
+let contador = 1;
 
 export function criarItemDaLista() {
-    evento.preventDefault();
     console.log(inputItem.value);
 
     if (inputItem.value === '') {
